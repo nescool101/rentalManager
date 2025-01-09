@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>LOFT CITY | Responsive Travel & Tourism Template</title>
+        <title>ReentalManager by nescool101</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <meta content="" name="keywords">
         <meta content="" name="description">
@@ -30,94 +30,120 @@
         <!-- Header Section Start -->
         <header id="header">
             <a href="index.html" class="logo"><img src="img/logo.png" alt="logo"></a>
-            <div class="phone"><i class="fa fa-phone"></i>+1 234 567 8900</div>
+            <div class="phone"><i class="fa fa-phone"></i>+57 3124894828</div>
             <div class="mobile-menu-btn"><i class="fa fa-bars"></i></div>
             <nav class="main-menu top-menu">
                 <ul>
-                    <li class="active"><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About Us</a></li>
-                    <li><a href="room.html">Apartments</a></li>
-                    <li><a href="amenities.html">Amenities</a></li>
-                    <li><a href="booking.html">Booking</a></li>
-                    <li><a href="login.html">Login</a></li>
-                    <li><a href="contact.html">Contact Us</a></li>
+                    <li class="active"><a href="index.html">Inicio</a></li>
+                    <li><a href="about.html">Nosotros</a></li>
+                    <li><a href="room.html">Alquileres turisticos</a></li>
+                    <li><a href="amenities.html">Servicios</a></li>
+                    <li><a href="booking.html">Reservas</a></li>
+                    <li><a href="contact.html">Contáctenos</a></li>
                 </ul>
             </nav>
         </header>
         <!-- Header Section End -->
         
-        <!-- Header Bottom Start -->
-        <div id="header-bottom">
-            <!-- Search Section Start -->
-            <div id="search" class="search-slider">
-                <div class="container">
-                    <h1>Feel at Home When You're Away</h1>
-                    <div class="form-row">
-                        <div class="control-group col-md-3">
-                            <label>Check-In</label>
-                            <div class="form-group">
-                                <div class="input-group date" id="date-3" data-target-input="nearest">
-                                    <input type="text" class="form-control datetimepicker-input" data-target="#date-3"/>
-                                    <div class="input-group-append" data-target="#date-3" data-toggle="datetimepicker">
-                                        <div class="input-group-text"><i class="fa fa-calendar"></i></div>
-                                    </div>
+        <!-- Sección de Búsqueda Inicio -->
+        <div id="search" class="search-slider">
+            <div class="container">
+                <h1>Consulta la disponibilidad para rentar lo que quieres!</h1>
+                <div class="form-row">
+                    <div class="control-group col-md-3">
+                        <label>Entrada</label>
+                        <div class="form-group">
+                            <div class="input-group date" id="date-3" data-target-input="nearest">
+                                <input type="text" class="form-control datetimepicker-input" id="checkin-date" placeholder="DD/MM/AAAA" data-target="#date-3"/>
+                                <div class="input-group-append" data-target="#date-3" data-toggle="datetimepicker">
+                                    <div class="input-group-text"><i class="fa fa-calendar"></i></div>
                                 </div>
                             </div>
                         </div>
-                        <div class="control-group col-md-3">
-                            <label>Check-Out</label>
-                            <div class="form-group">
-                                <div class="input-group date" id="date-4" data-target-input="nearest">
-                                    <input type="text" class="form-control datetimepicker-input" data-target="#date-4"/>
-                                    <div class="input-group-append" data-target="#date-4" data-toggle="datetimepicker">
-                                        <div class="input-group-text"><i class="fa fa-calendar"></i></div>
-                                    </div>
+                    </div>
+                    <div class="control-group col-md-3">
+                        <label>Salida</label>
+                        <div class="form-group">
+                            <div class="input-group date" id="date-4" data-target-input="nearest">
+                                <input type="text" class="form-control datetimepicker-input" id="checkout-date" placeholder="DD/MM/AAAA" data-target="#date-4"/>
+                                <div class="input-group-append" data-target="#date-4" data-toggle="datetimepicker">
+                                    <div class="input-group-text"><i class="fa fa-calendar"></i></div>
                                 </div>
                             </div>
                         </div>
-                        <div class="control-group col-md-3">
-                            <div class="form-row">
-                                <div class="control-group col-md-6">
-                                    <label>Adult</label>
-                                    <select class="custom-select">
-                                        <option selected>0</option>
-                                        <option value="1">1</option>
-                                        <option value="2">2</option>
-                                        <option value="3">3</option>
-                                        <option value="4">4</option>
-                                        <option value="5">5</option>
-                                        <option value="6">6</option>
-                                        <option value="7">7</option>
-                                        <option value="8">8</option>
-                                        <option value="9">9</option>
-                                        <option value="10">10</option>
-                                    </select>
-                                </div>
-                                <div class="control-group col-md-6 control-group-kid">
-                                    <label>Kid</label>
-                                    <select class="custom-select">
-                                        <option selected>0</option>
-                                        <option value="1">1</option>
-                                        <option value="2">2</option>
-                                        <option value="3">3</option>
-                                        <option value="4">4</option>
-                                        <option value="5">5</option>
-                                        <option value="6">6</option>
-                                        <option value="7">7</option>
-                                        <option value="8">8</option>
-                                        <option value="9">9</option>
-                                        <option value="10">10</option>
-                                    </select>
-                                </div>
+                    </div>
+                    <div class="control-group col-md-3">
+                        <div class="form-row">
+                            <div class="control-group col-md-6">
+                                <label>Adultos</label>
+                                <select class="custom-select" id="adultos">
+                                    <option selected>1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7">7</option>
+                                </select>
+                            </div>
+                            <div class="control-group col-md-6">
+                                <label>Niños</label>
+                                <select class="custom-select" id="ninos">
+                                    <option selected>0</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                </select>
                             </div>
                         </div>
-                        <div class="control-group col-md-3">
-                            <button class="btn btn-block">Search</button>
-                        </div>
+                    </div>
+                    <div class="control-group col-md-3">
+                        <label>Selecciona el inmueble</label>
+                        <select class="custom-select" id="inmueble">
+                            <option value="Vita219">Vita219</option>
+                            <option value="Caranaday">Caranaday</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-row mt-3">
+                    <div class="control-group col-md-12 text-center">
+                        <button class="btn btn-block btn-success" id="buscar-btn">Consultar por WhatsApp</button>
                     </div>
                 </div>
             </div>
-            <!-- Search Section End -->
+        </div>
+        <!-- Sección de Búsqueda Fin -->
+
+        <script>
+            document.getElementById("buscar-btn").addEventListener("click", function() {
+                // Obtener valores del formulario
+                const checkin = document.getElementById("checkin-date").value;
+                const checkout = document.getElementById("checkout-date").value;
+                const adultos = document.getElementById("adultos").value;
+                const ninos = document.getElementById("ninos").value;
+                const inmueble = document.getElementById("inmueble").value;
+
+                // Calcular el total de personas
+                const totalPersonas = parseInt(adultos) + parseInt(ninos);
+
+                // Construir el mensaje
+                let mensaje = `Hola Nestor, somos ${totalPersonas} personas (Adultos: ${adultos}, Niños: ${ninos}), queremos rentar el inmueble ${inmueble}. Entrada: ${checkin}, Salida: ${checkout}. ¿Está disponible?`;
+
+                // Codificar el mensaje para la URL de WhatsApp
+                const mensajeCodificado = encodeURIComponent(mensaje);
+
+                // Número de WhatsApp
+                const numeroWhatsApp = "573124894828"; // Formato internacional (57 para Colombia)
+
+                // Generar el enlace de WhatsApp
+                const enlaceWhatsApp = `https://wa.me/${numeroWhatsApp}?text=${mensajeCodificado}`;
+
+                // Redirigir a WhatsApp
+                window.open(enlaceWhatsApp, "_blank");
+            });
+        </script>
+
             
             <!-- Slider Section Start -->
             <div id="headerSlider" class="carousel slide" data-ride="carousel">
@@ -223,291 +249,173 @@
         </div>
         <!-- Search Section End -->
         
-        <!-- Welcome Section Start -->
+        <!-- Sección de Bienvenida Inicio -->
         <div id="welcome">
             <div class="container">
-                <h3>Welcome to Loft City</h3>
-                <h4>Urban Holiday Apartments in San Francisco</h4> 
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas gravida sollicitudin turpis id posuere. Fusce nec rhoncus nibh. Fusce arcu libero, euismod eget commodo at, venenatis a nisi. Sed faucibus metus sed leo vulputate blandit.</p>
-                <a href="#">Book Now</a>
+                <h3>Bienvenido a RentManager by Néstor Álvarez</h3>
+                <h4>Te ofrecemos dos opciones de renta: una en Ricaurte, Cundinamarca y otra en Santa Marta, Magdalena.</h4> 
+                <p>Disfruta de una estadía cómoda y segura en cualquiera de nuestras propiedades. Nos aseguramos de brindarte una experiencia única con todas las comodidades que necesitas. Reserva tu espacio y vive una estancia inolvidable.</p>
+                <a href="#">Reservar Ahora</a>
             </div>
         </div>
-        <!-- Welcome Section End -->
+        <!-- Sección de Bienvenida Fin -->
+
         
-        <!-- Amenities Section Start -->
-        <div id="amenities">
-            <div class="container">
-                <div class="section-header">
-                    <h2>Amenities & Services</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas in mi libero. Quisque convallis, enim at venenatis tincidunt.
-                    </p>
-                </div>
-                <div class="row">
-                    <div class="col-md-3 col-sm-6">
-                        <div class="item">
-                            <i class="icon icon-2"></i>
-                            <h3>Air Conditioner</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-                        <div class="item">
-                            <i class="icon icon-3"></i>
-                            <h3>Bathtub</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-                        <div class="item">
-                            <i class="icon icon-4"></i>
-                            <h3>Shower</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-                        <div class="item">
-                            <i class="icon icon-6"></i>
-                            <h3>Television</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-                        <div class="item">
-                            <i class="icon icon-7"></i>
-                            <h3>WiFi</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-                        <div class="item">
-                            <i class="icon icon-8"></i>
-                            <h3>Telephone</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-                        <div class="item">
-                            <i class="icon icon-9"></i>
-                            <h3>Mini Bar</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-                        <div class="item">
-                            <i class="icon icon-10"></i>
-                            <h3>Kitchen</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Amenities Section Start -->
+ 
         
-        <!-- Room Section Start -->
-        <div id="rooms">
-            <div class="container">
-                <div class="section-header">
-                    <h2>Apartments & Suites</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas in mi libero. Quisque convallis, enim at venenatis tincidunt.
-                    </p>
-                </div>
+       <!-- Sección de Habitaciones Inicio -->
+<div id="rooms">
+    <div class="container">
+        <div class="section-header">
+            <h2>Apartamentos & Suites</h2>
+            <p>Descubre nuestras exclusivas opciones de alojamiento.</p>
+        </div>
+        <div class="row">
+            <!-- Habitación Vita219 -->
+            <div class="col-md-12 room">
                 <div class="row">
-                    <div class="col-md-12 room">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="room-img">
-                                    <img src="img/room/room-1.jpg">
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="room-des">
-                                    <h3>Standard Single</h3>
-                                    <h1>$150<span>/ Night</span></h1>
-                                    <ul class="room-size">
-                                        <li><i class="fa fa-arrow-right"></i>Size: 260 sq ft </li>
-                                        <li><i class="fa fa-arrow-right"></i>Beds: 2 Single(s) </li>
-                                    </ul>
-                                    <ul class="room-icon">
-                                        <li class="icon-1"></li>
-                                        <li class="icon-2"></li>
-                                        <li class="icon-3"></li>
-                                        <li class="icon-4"></li>
-                                        <li class="icon-5"></li>
-                                        <li class="icon-6"></li>
-                                        <li class="icon-7"></li>
-                                        <li class="icon-8"></li>
-                                        <li class="icon-9"></li>
-                                        <li class="icon-10"></li>
-                                    </ul>
-                                    <div class="room-link">
-                                        <a href="#" data-toggle="modal" data-target="#modal-id">Read More</a>
-                                        <a href="#">Book Now</a>
-                                    </div>
-                                </div>
+                    <div class="col-md-6">
+                        <div class="room-img">
+                            <img src="img/room/room-1.jpg">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="room-des">
+                            <h3>Vita219</h3>
+                            <h1>$150.000<span>/ Noche (varia depende la temporada)</span></h1>
+                            <ul class="room-size">
+                                <li><i class="fa fa-arrow-right"></i>1 Habitación</li>
+                                <li><i class="fa fa-arrow-right"></i>1 Baño</li>
+                                <li><i class="fa fa-arrow-right"></i>Balcón con vista</li>
+                                <li><i class="fa fa-arrow-right"></i>Ubicación: Santa Marta, Magdalena</li>
+                                <li><i class="fa fa-arrow-right"></i>A 5 cuadras del mar</li>
+                            </ul>
+                            <ul class="room-icon">
+                                <li class="icon-2"></li>
+                                <li class="icon-7"></li>
+                                <li class="icon-8"></li>
+                                <li class="icon-9"></li>
+                            </ul>
+                            <div class="room-link">
+                                <a href="#" data-toggle="modal" data-target="#modal-id">Más Información</a>
+                                <a href="#">Reservar Ahora</a>
                             </div>
                         </div>
                     </div>
-                    
-                    <div class="col-md-12 room">
-                        <div class="row">
-                            <div class="col-md-6 d-block d-md-none">
-                                <div class="room-img">
-                                    <img src="img/room/room-2.jpg">
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="room-des">
-                                    <h3>Standard Double</h3>
-                                    <h1>$220<span>/ Night</span></h1>
-                                    <ul class="room-size">
-                                        <li><i class="fa fa-arrow-right"></i>Size: 260 sq ft </li>
-                                        <li><i class="fa fa-arrow-right"></i>Beds: 2 Single(s) </li>
-                                    </ul>
-                                    <ul class="room-icon">
-                                        <li class="icon-1"></li>
-                                        <li class="icon-2"></li>
-                                        <li class="icon-3"></li>
-                                        <li class="icon-4"></li>
-                                        <li class="icon-5"></li>
-                                        <li class="icon-6"></li>
-                                        <li class="icon-7"></li>
-                                        <li class="icon-8"></li>
-                                        <li class="icon-9"></li>
-                                        <li class="icon-10"></li>
-                                    </ul>
-                                    <div class="room-link">
-                                        <a href="#" data-toggle="modal" data-target="#modal-id">Read More</a>
-                                        <a href="#">Book Now</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6 d-none d-md-block">
-                                <div class="room-img">
-                                    <img src="img/room/room-2.jpg">
-                                </div>
-                            </div>
+                </div>
+            </div>
+
+            <!-- Habitación Caranday -->
+            <div class="col-md-12 room">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="room-img">
+                            <img src="img/room/room-2.jpg">
                         </div>
                     </div>
-                    
-                    <div class="col-md-12 room">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="room-img">
-                                    <img src="img/room/room-3.jpg">
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="room-des">
-                                    <h3>Premium Single</h3>
-                                    <h1>$180<span>/ Night</span></h1>
-                                    <ul class="room-size">
-                                        <li><i class="fa fa-arrow-right"></i>Size: 260 sq ft </li>
-                                        <li><i class="fa fa-arrow-right"></i>Beds: 2 Single(s) </li>
-                                    </ul>
-                                    <ul class="room-icon">
-                                        <li class="icon-1"></li>
-                                        <li class="icon-2"></li>
-                                        <li class="icon-3"></li>
-                                        <li class="icon-4"></li>
-                                        <li class="icon-5"></li>
-                                        <li class="icon-6"></li>
-                                        <li class="icon-7"></li>
-                                        <li class="icon-8"></li>
-                                        <li class="icon-9"></li>
-                                        <li class="icon-10"></li>
-                                    </ul>
-                                    <div class="room-link">
-                                        <a href="#" data-toggle="modal" data-target="#modal-id">Read More</a>
-                                        <a href="#">Book Now</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="col-md-12 room">
-                        <div class="row">
-                            <div class="col-md-6 d-block d-md-none">
-                                <div class="room-img">
-                                    <img src="img/room/room-4.jpg">
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="room-des">
-                                    <h3>Premium Double</h3>
-                                    <h1>$300<span>/ Night</span></h1>
-                                    <ul class="room-size">
-                                        <li><i class="fa fa-arrow-right"></i>Size: 260 sq ft </li>
-                                        <li><i class="fa fa-arrow-right"></i>Beds: 2 Single(s) </li>
-                                    </ul>
-                                    <ul class="room-icon">
-                                        <li class="icon-1"></li>
-                                        <li class="icon-2"></li>
-                                        <li class="icon-3"></li>
-                                        <li class="icon-4"></li>
-                                        <li class="icon-5"></li>
-                                        <li class="icon-6"></li>
-                                        <li class="icon-7"></li>
-                                        <li class="icon-8"></li>
-                                        <li class="icon-9"></li>
-                                        <li class="icon-10"></li>
-                                    </ul>
-                                    <div class="room-link">
-                                        <a href="#" data-toggle="modal" data-target="#modal-id">Read More</a>
-                                        <a href="#">Book Now</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6 d-none d-md-block">
-                                <div class="room-img">
-                                    <img src="img/room/room-4.jpg">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="col-md-12 room">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="room-img">
-                                    <img src="img/room/room-5.jpg">
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="room-des">
-                                    <h3>Economy Single</h3>
-                                    <h1>$120<span>/ Night</span></h1>
-                                    <ul class="room-size">
-                                        <li><i class="fa fa-arrow-right"></i>Size: 260 sq ft </li>
-                                        <li><i class="fa fa-arrow-right"></i>Beds: 2 Single(s) </li>
-                                    </ul>
-                                    <ul class="room-icon">
-                                        <li class="icon-1"></li>
-                                        <li class="icon-2"></li>
-                                        <li class="icon-3"></li>
-                                        <li class="icon-4"></li>
-                                        <li class="icon-5"></li>
-                                        <li class="icon-6"></li>
-                                        <li class="icon-7"></li>
-                                        <li class="icon-8"></li>
-                                        <li class="icon-9"></li>
-                                        <li class="icon-10"></li>
-                                    </ul>
-                                    <div class="room-link">
-                                        <a href="#" data-toggle="modal" data-target="#modal-id">Read More</a>
-                                        <a href="#">Book Now</a>
-                                    </div>
-                                </div>
+                    <div class="col-md-6">
+                        <div class="room-des">
+                            <h3>Caranday</h3>
+                            <h1>$100.000<span>/ Noche (varia depende la temporada)</span></h1>
+                            <ul class="room-size">
+                                <li><i class="fa fa-arrow-right"></i>2 Habitaciones</li>
+                                <li><i class="fa fa-arrow-right"></i>2 Baños</li>
+                                <li><i class="fa fa-arrow-right"></i>Balcón con vista</li>
+                                <li><i class="fa fa-arrow-right"></i>Ubicación: Ricaurte, Cundinamarca</li>
+                                <li><i class="fa fa-arrow-right"></i>A 10 minutos de Piscilago</li>
+                            </ul>
+                            <ul class="room-icon">
+                                <li class="icon-1"></li>
+                                <li class="icon-3"></li>
+                                <li class="icon-4"></li>
+                                <li class="icon-5"></li>
+                                <li class="icon-6"></li>
+                                <li class="icon-7"></li>
+                                <li class="icon-8"></li>
+                                <li class="icon-9"></li>
+                                <li class="icon-10"></li>
+                            </ul>
+                            <div class="room-link">
+                                <a href="#" data-toggle="modal" data-target="#modal-id">Más Información</a>
+                                <a href="#">Reservar Ahora</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Room Section End -->
+    </div>
+</div>
+<!-- Sección de Habitaciones Fin -->
+
+               <!-- Sección de Amenidades Inicio -->
+               <div id="amenities">
+                <div class="container">
+                    <div class="section-header">
+                        <h2>Amenidades y Servicios</h2>
+                        <p>Descubre las comodidades y servicios disponibles para tu estancia.</p>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3 col-sm-6">
+                            <div class="item">
+                                <i class="icon icon-2"></i>
+                                <h3>Aire Acondicionado (Solo disponible en Vita219)</span></h3>
+                                <p>Climatización para mayor confort durante la estancia <p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="item">
+                                <i class="icon icon-3"></i>
+                                <h3>Bañera</h3>
+                                <p>Relájate con un baño caliente después de un largo día<p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="item">
+                                <i class="icon icon-4"></i>
+                                <h3>Ducha</h3>
+                                <p>Espacio cómodo y moderno para refrescarse <p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="item">
+                                <i class="icon icon-6"></i>
+                                <h3>Televisión</h3>
+                                <p>Disfruta de tus programas y películas favoritas <p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="item">
+                                <i class="icon icon-7"></i>
+                                <h3>WiFi (Solo disponible en Vita219)</span></h3>
+                                <p>Conexión a internet de alta velocidad para trabajar o entretenerse<p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="item">
+                                <i class="icon icon-8"></i>
+                                <h3>Teléfono (Solo disponible en Vita219)</span></h3>
+                                <p>Comunicación directa con recepción y llamadas locales<p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="item">
+                                <i class="icon icon-9"></i>
+                                <h3>Mini Bar (Solo disponible en Vita219)</span></h3>
+                                <p>Bebidas y snacks disponibles en la comodidad de tu habitación<p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="item">
+                                <i class="icon icon-10"></i>
+                                <h3>Cocina</h3>
+                                <p>Espacio equipado para preparar tus comidas favoritas <p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Sección de Amenidades Fin -->
         
         <!-- Modal for Room Section Start -->
         <div id="modal-id" class="modal fade" tabindex="-1" role="dialog">
@@ -552,36 +460,13 @@
         </div>
         <!-- Modal for Room Section End -->
         
-        <!-- Subscribe Section Start -->
-        <div id="subscribe">
+        <!-- Sección de Reservas Inicio -->
+        <div id="booking-section">
             <div class="container">
                 <div class="section-header">
-                    <h2>Subscribe for Special Offer</h2>
+                    <h2>Reserva de Habitación</h2>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas in mi libero. Quisque convallis, enim at venenatis tincidunt.
-                    </p>
-                </div>
-                <div class="row">
-                    <div class="col-12">
-                        <div class="subscribe-form">
-                            <form>
-                                <input type="email" required="required" placeholder="Enter your email here" />
-                                <button>submit</button>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Subscribe Section End -->
-        
-        <!-- Booking Section Start -->
-        <div id="booking">
-            <div class="container">
-                <div class="section-header">
-                    <h2>Room Booking</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas in mi libero. Quisque convallis, enim at venenatis tincidunt.
+                        Tenemos hermosos apartamentos en tierra caliente, para cuando desees tomar unas merecidas vacaciones con tu familia.
                     </p>
                 </div>
                 <div class="row">
@@ -591,44 +476,44 @@
                             <form name="sentMessage" id="bookingForm" novalidate="novalidate">
                                 <div class="form-row">
                                     <div class="control-group col-sm-6">
-                                        <label>First Name</label>
-                                        <input type="text" class="form-control" id="fname" placeholder="E.g. John" required="required" data-validation-required-message="Please enter first name" />
+                                        <label>Nombre</label>
+                                        <input type="text" class="form-control" id="booking-fname" placeholder="Ej. Juan" required="required" data-validation-required-message="Por favor ingrese su nombre" />
                                         <p class="help-block text-danger"></p>
                                     </div>
                                     <div class="control-group col-sm-6">
-                                        <label>Last Name</label>
-                                        <input type="text" class="form-control" id="lname" placeholder="E.g. Sina" required="required" data-validation-required-message="Please enter last name" />
+                                        <label>Apellido</label>
+                                        <input type="text" class="form-control" id="booking-lname" placeholder="Ej. Pérez" required="required" data-validation-required-message="Por favor ingrese su apellido" />
                                         <p class="help-block text-danger"></p>
                                     </div>
                                 </div>
                                 <div class="form-row">
                                     <div class="control-group col-sm-6">
-                                        <label>Mobile</label>
-                                        <input type="text" class="form-control" id="mobile" placeholder="E.g. +1 234 567 8900" required="required" data-validation-required-message="Please enter your mobile number" />
+                                        <label>Teléfono</label>
+                                        <input type="text" class="form-control" id="booking-mobile" placeholder="Ej. +57 312 345 6789" required="required" data-validation-required-message="Por favor ingrese su número de teléfono" />
                                         <p class="help-block text-danger"></p>
                                     </div>
                                     <div class="control-group col-sm-6">
-                                        <label>Email</label>
-                                        <input type="email" class="form-control" id="email" placeholder="E.g. email@example.com" required="required" data-validation-required-message="Please enter your email" />
+                                        <label>Correo Electrónico</label>
+                                        <input type="email" class="form-control" id="booking-email" placeholder="Ej. correo@ejemplo.com" required="required" data-validation-required-message="Por favor ingrese su correo electrónico" />
                                         <p class="help-block text-danger"></p>
                                     </div>
                                 </div>
                                 <div class="form-row">
                                     <div class="control-group col-sm-6">
                                         <label>Check-In</label>
-                                        <input type="text" class="form-control datetimepicker-input" id="date-1" data-toggle="datetimepicker" data-target="#date-1" placeholder="E.g. MM/DD/YYYY" required="required" data-validation-required-message="Please enter date"/>
+                                        <input type="text" class="form-control datetimepicker-input" id="booking-date-1" data-toggle="datetimepicker" data-target="#booking-date-1" placeholder="Ej. DD/MM/AAAA" required="required" data-validation-required-message="Por favor seleccione una fecha"/>
                                         <p class="help-block text-danger"></p>
                                     </div>
                                     <div class="control-group col-sm-6">
                                         <label>Check-Out</label>
-                                        <input type="text" class="form-control datetimepicker-input" id="date-2" data-toggle="datetimepicker" data-target="#date-2" placeholder="E.g. MM/DD/YYYY" required="required" data-validation-required-message="Please enter date"/>
+                                        <input type="text" class="form-control datetimepicker-input" id="booking-date-2" data-toggle="datetimepicker" data-target="#booking-date-2" placeholder="Ej. DD/MM/AAAA" required="required" data-validation-required-message="Por favor seleccione una fecha"/>
                                         <p class="help-block text-danger"></p>
                                     </div>
                                 </div>
                                 <div class="form-row">
                                     <div class="control-group col-sm-6">
-                                        <label>Adult</label>
-                                        <select class="custom-select" id="adult" required="required" data-validation-required-message="Please select one"/>
+                                        <label>Adultos</label>
+                                        <select class="custom-select" id="booking-adult" required="required" data-validation-required-message="Por favor seleccione una opción">
                                             <option value="0">0</option>
                                             <option value="1">1</option>
                                             <option value="2">2</option>
@@ -637,61 +522,92 @@
                                             <option value="5">5</option>
                                             <option value="6">6</option>
                                             <option value="7">7</option>
-                                            <option value="8">8</option>
-                                            <option value="9">9</option>
-                                            <option value="10">10</option>
                                         </select>
                                         <p class="help-block text-danger"></p>
                                     </div>
                                     <div class="control-group col-sm-6">
-                                        <label>KId</label>
-                                        <select class="custom-select" id="kid" required="required" data-validation-required-message="Please select one"/>
+                                        <label>Niños</label>
+                                        <select class="custom-select" id="booking-kid" required="required" data-validation-required-message="Por favor seleccione una opción">
                                             <option value="0">0</option>
                                             <option value="1">1</option>
                                             <option value="2">2</option>
                                             <option value="3">3</option>
                                             <option value="4">4</option>
-                                            <option value="5">5</option>
-                                            <option value="6">6</option>
-                                            <option value="7">7</option>
-                                            <option value="8">8</option>
-                                            <option value="9">9</option>
-                                            <option value="10">10</option>
                                         </select>
                                         <p class="help-block text-danger"></p>
                                     </div>
                                 </div>
                                 <div class="control-group">
-                                    <label>Special Request</label>
-                                    <input type="text" class="form-control" id="request" placeholder="E.g. Special Request" required="required" data-validation-required-message="Please enter your special request" />
+                                    <label>Selecciona tu Ubicación</label>
+                                    <select class="custom-select" id="booking-location" required="required" data-validation-required-message="Por favor seleccione una ubicación">
+                                        <option value="caranday">Caranday</option>
+                                        <option value="vita219">Vita219</option>
+                                    </select>
                                     <p class="help-block text-danger"></p>
                                 </div>
-                                <div class="button"><button type="submit" id="bookingButton">Book Now</button></div>
+                                <div class="control-group">
+                                    <label>Solicitud Especial</label>
+                                    <input type="text" class="form-control" id="booking-request" placeholder="Ej. Solicitud especial" required="required" data-validation-required-message="Por favor ingrese su solicitud especial" />
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="button">
+                                    <a href="#" id="whatsappBookingButton" class="btn btn-primary">Reservar por WhatsApp</a>
+                                </div>
                             </form>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Booking Section End -->
+        <!-- Sección de Reservas Fin -->
+
+        <script>
+            document.getElementById("whatsappBookingButton").addEventListener("click", function(event) {
+                event.preventDefault();
+
+                const checkin = document.getElementById("booking-date-1").value;
+                const checkout = document.getElementById("booking-date-2").value;
+                const adultos = document.getElementById("booking-adult").value;
+                const ninos = document.getElementById("booking-kid").value;
+                const inmueble = document.getElementById("booking-location").value;
+                const nombre = document.getElementById("booking-fname").value;
+                const apellido = document.getElementById("booking-lname").value;
+                const telefono = document.getElementById("booking-mobile").value;
+                const correo = document.getElementById("booking-email").value;
+                const solicitud = document.getElementById("booking-request").value;
+
+                const totalPersonas = parseInt(adultos) + parseInt(ninos);
+
+                let mensaje = `Hola Néstor, soy ${nombre} ${apellido}, mi número de contacto es ${telefono} y mi correo es ${correo}. Queremos rentar el inmueble ${inmueble}. Somos ${totalPersonas} personas (Adultos: ${adultos}, Niños: ${ninos}). Entrada: ${checkin}, Salida: ${checkout}. Solicitud especial: ${solicitud}. ¿Está disponible?`;
+
+                const mensajeCodificado = encodeURIComponent(mensaje);
+                const numeroWhatsApp = "573124894828";
+
+                const enlaceWhatsApp = `https://wa.me/${numeroWhatsApp}?text=${mensajeCodificado}`;
+
+                window.open(enlaceWhatsApp, "_blank");
+            });
+        </script>
+      
         
-        <!-- Call Section Start -->
+        <!-- Sección de Llamada Inicio -->
         <div id="call-us">
             <div class="container">
                 <div class="section-header">
-                    <h2>Click Below to Call Us</h2>
+                    <h2>Haz Clic Abajo para Llamarnos</h2>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas in mi libero. Quisque convallis, enim at venenatis tincidunt.
+                        Contáctanos para reservar tu estadía en nuestros exclusivos apartamentos vacacionales. Disfruta de una experiencia única en un ambiente cómodo y acogedor.
                     </p>
                 </div>
                 <div class="row">
                     <div class="col-12">
-                        <a href="tel:+12345678900">+1 234 567 8900</a>
+                        <a href="tel:+573124894828">+57 312 489 4828</a>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Call Section End -->
+        <!-- Sección de Llamada Fin -->
+
         
         <!-- Footer Section Start -->
         <div id="footer">
@@ -713,8 +629,7 @@
                         </ul>
                     </div>
                     <div class="col-12">
-                        <p>Copyright &#169; <a href="https://htmlcodex.com">HTML Codex</a> All Rights Reserved.</p>
-						<p>Template By <a href="https://htmlcodex.com">HTML Codex</a></p>
+                        <p>Copyright &#169; <a href="https://nescool101.netlify.app">NESCOOL101</a> All Rights Reserved.</p>
                     </div>
                 </div>
             </div>
